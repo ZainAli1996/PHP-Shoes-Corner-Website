@@ -1,0 +1,110 @@
+body {
+  font-family: 'Dosis', sans-serif !important;
+  background-color: white !important;
+}
+
+h1{
+  color: blue !important;
+  text-align: center;
+}
+
+p{
+  color: red;
+  text-align: center;
+}
+
+label{
+  font-weight: bold;
+}
+
+.form-row{
+  margin: 20px 5px;
+}
+
+.form-group{
+  margin: 5px;
+}
+
+.psw_confirm{
+  padding-left: 145px;
+}
+
+hr {
+  border: 1px solid gold !important;
+}
+
+h6{
+  text-align: center;
+  background-color: snow;
+  width: 230px;
+  margin-left: 560px;
+  padding: 2px 0px 2px 0px;
+  color: red;
+}
+
+.nav-link, .btn {
+  color:#000000 !important;
+  font-weight: bold;
+}
+
+.navbar-brand{
+padding: 1px !important; } 
+
+ul > li > a{
+  margin-top: 9px !important;
+    }
+    
+  a.nav-link{
+      font-size: 15px;
+    }
+    
+  .navbar-nav {
+      padding-left: 380px;
+    }
+
+nav {
+	padding: 0px 5px !important;
+	background-color: #CFD8DC;
+	border: 2px solid green !important;
+}
+
+.nav-link {
+font-weight: bold;
+margin-top: 5px;
+}
+
+h4 {
+font-size: 13.5px !important;
+font-weight: bold !important;
+margin-top: 15px !important;
+  float: right;
+  padding-left: 5px;
+}
+
+  ul{
+    list-style: none;
+    }
+    
+  ul li{
+    padding: 0px !important;
+      }
+
+.container{
+  background-color: floralwhite;
+  height: auto;
+  width: 625px;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.page-footer {
+  background-color:#CFD8DC !important;
+}
+
+.btn-success{
+  margin: 5px 230px;
+}

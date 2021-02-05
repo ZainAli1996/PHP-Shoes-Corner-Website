@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="icon" href="icon/shoes.png" sizes="50x50">
+<link rel="stylesheet" href="css/Registration.css">
+
+<style>
+  body{
+    background-image: url(img/RegBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+</head>
+
+<body>
+
+   
+                                 <!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+<a class="navbar-brand" href="index.html">
+<img src="img/logo.png" alt="" height="50px" width="50px">
+<h4><span style="color: #D50000">SHOES</span> CORNER</h4>
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active">
+<a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="About.html">ABOUT</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+CATEGORY
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="Kids.html">Kids</a>
+<a class="dropdown-item" href="Male.html">Male</a>
+<a class="dropdown-item" href="Female.html">Female</a>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="Contact.html">CONTACT</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="Feedback.html">FEEDBACK</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="Login.html"   style="color: blue !important;">LOGIN</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="Registration.html"  style="color: green !important;">REGISTER</a>
+</li>
+</ul>
+</div>
+</nav>  
+
+
+<div class="container">
+  <form action="Login.html">
+        <h1>Register Yourself</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+    
+        <label for="fullname"><b>Full Name</b></label>
+        <input type="text" placeholder="Enter Full Name" name="fullname" id="fullname" required>
+
+        <label for="phone"><b>Phone:</b></label>
+        <input type="tel" placeholder="Enter Phone Number" name="phone" id="phone" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    
+        <label for="psw-confirm"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Confirm Password" name="psw-confirm" id="psw-confirm" required>
+        <hr>
+       
+        <button type="submit" class="btn btn-success">RIGISTER NOW</button>
+      
+    </div>
+    </form>
+    <p class="text-center" >Already Have Account? <a href="Login.html">Log In</a> </p>
+</body>
+</html>

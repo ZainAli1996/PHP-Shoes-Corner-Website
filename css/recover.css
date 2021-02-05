@@ -1,0 +1,20 @@
+* {font-family: 'Poppins', sans-serif;}
+
+.btn {
+    color:#000000 !important;
+    font-weight: bold;}
+
+.container{
+    border: solid 2px gold;
+    padding: 10px;}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px;
+    color: crimson;
+    text-shadow: 1px 1px 2px black;}
+
+p{
+    text-align: center;}

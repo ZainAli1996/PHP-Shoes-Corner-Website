@@ -1,0 +1,121 @@
+
+  *{font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+
+  h1 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin-top: 15px !important;
+    padding-left: 5px;
+    width: 230px !important;
+    }
+
+a > h1{
+	color: black !important;
+  }
+
+
+  .logo{
+	float: left;
+	padding: 0px 5px !important;
+	margin-right: 5px;
+  }
+
+  .navbar-brand{
+	padding: 1px !important; 
+   }
+
+table{
+  border: solid 2px gold;
+  margin-bottom: 30px;
+}
+
+td{ 
+  padding: 10px 0px 0px 5px!important;
+  font-weight: bold !important;
+  height: 10px !important;
+  border: 1px solid black !important;
+}
+
+.form-control{
+	color: #000;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 350px !important;
+}
+
+
+.btn-success{
+  color: black !important;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  width: 50% !important;
+  font-weight: bold !important;
+}
+
+
+input{
+  width: 250px !important;
+}
+
+.logout{
+  float: right;
+  margin: 5px 30px 0px 0px;
+}
+
+  
+.btn-info{
+  color: black !important;
+  font-weight: bold !important;
+}
+
+
+ul{
+  list-style: none;}
+ul li{
+  padding: 15px 0px !important;}
+ul li a{
+  color: #000000;
+}
+
+
+
+  h2{
+    float: right;
+    font-weight: bold !important;
+    border: 2px solid purple;
+    color: green !important;
+
+  }
+
+
+  h5 {
+    text-align: center;
+    font-weight: bold !important;
+    margin-top: 30px !important;
+    font-size: 30px !important;
+  }
+
+  h3{
+	
+  margin-top: 10px;
+  text-align: center !important;
+  font-size: 40px !important;
+	font-weight: bold;
+	color: red;
+	text-shadow: 2px 2px 4px black;
+  }
+
+  .imgz{
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+
+h4 {
+	font-size: 16px !important;
+	font-weight: bold !important;
+	margin-top: 10px;
+	padding-left: 5px;
+	width: 100px;
+}
+
+

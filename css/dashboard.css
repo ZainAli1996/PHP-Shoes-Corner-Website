@@ -1,0 +1,50 @@
+
+  *{font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+
+
+h5 {
+  text-align: center;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+  margin-left: 150px !important;
+  font-size: 30px !important;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 150px !important;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+	  text-shadow: 2px 2px 3px black;
+}
+
+h3 {
+	padding: 5px;
+	font-weight: bold;
+	color: orange;
+	text-shadow: 2px 2px 4px black;
+}
+
+.btn-warning{
+    font-weight: bold !important;
+    float:right;
+    padding: 6px !important;
+    margin: 7px 5px !important;    
+}
+
+  .btn-danger, .btn-success, .btn-primary, .btn-info{
+    color: black;
+    font-weight: bold;
+  }
+
+  ul{
+    list-style: none;
+    }
+    
+  ul li{
+    padding: 5px 0px !important;
+      }
+

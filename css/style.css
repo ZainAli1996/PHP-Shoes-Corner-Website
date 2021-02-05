@@ -1,0 +1,446 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff
+    url('https://flevix.com/wp-content/uploads/2019/12/Quarter-Circle-Loading-Image-1.gif')
+    no-repeat center;
+    z-index: 99999;
+}
+
+.btn {
+    color:#000000 !important;
+    font-weight: bold;
+}
+
+.navbar-brand{
+	padding: 1px !important; 
+   			} 
+
+ul > li > a{
+margin-top: 9px !important;
+   }
+   
+a.nav-link{
+font-size: 15px;
+   }
+   
+.navbar-nav {
+padding-left: 380px;}
+
+nav {
+	padding: 0px 5px !important;
+	background-color: #CFD8DC;
+	border: 2px solid green !important;
+}
+
+.nav-link {
+	margin-top: 5px;
+	color:#000000 !important;
+	font-weight: bold;
+}
+
+								/* DROPDOWN ON HOVER */
+
+	.dropbtn {
+		background-color: #CFD8DC;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+	  }
+
+	  button.dropbtn{
+		  height: 50px !important;
+	  }
+	  
+	  .dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		width: 175px;
+		margin: 0px 10px 0px 10px !important;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 5;
+	  }
+	  
+	  .dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	  }
+	  
+	  .dropdown-content a:hover {background-color: #ddd; margin:0%; border: solid gold 2px;}
+	  
+	  .dropdown:hover .dropdown-content {display: block;}
+	  
+	  .dropdown:hover .dropbtn {background-color: #ECEFF1;}
+
+
+.user{
+	  font-weight: bold;
+	  font-size: 15px;
+	  color: red;
+	  text-transform: uppercase;
+	  text-shadow: 1px 1px 2px black;
+  }
+
+
+h4 {
+	font-size: 13.7px !important;
+	font-weight: bold !important;
+	margin-top: 15px !important;
+    float: right;
+    padding-left: 5px;
+}
+
+.d-block{
+    height: 500px;
+}
+
+	@media only screen and (max-width :600px){     
+
+		.d-block {
+		height: 225px;
+	}
+
+	.navbar-nav {
+		padding-left: 0px !important;
+	}
+
+	.FreeShipping, .Support, .BestQuality {
+
+		width: 100%;
+	}
+
+	}
+
+
+
+	@media only screen and (max-width :400px){     
+
+		h4 {
+			font-size: 11px !important;
+		}
+		.Services {
+			padding: 5px;
+		}
+	}
+
+
+.Services {
+	
+	margin: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	border-radius: 20px;
+	
+
+}
+
+.fa-truck, .fa-headphones, .fa-thumbs-up{
+	font-size: 50px !important;
+	margin-right: 10px;
+}
+
+.FreeShipping, .Support, .BestQuality {
+	height: 100px;
+	width: 300px;
+	margin-top: 10px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border: red solid 5px;
+}
+
+
+h3 {
+	margin-top: 10px;
+	
+}
+
+.Products{
+	height: auto;
+	width: auto;	
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+	border: solid 1px black;
+	border-radius: 20px;
+}
+
+.ProductName{
+	
+	height: 36px;
+    line-height: 18px;
+	
+	margin: 0px 0.5px 8px 0px;
+	font-size: 14px;
+	padding: 0.2px 0px;
+	font-weight: bold;
+	background-color: gainsboro;
+	text-align: center;
+}
+
+h1{
+	padding: 5px;
+	font-weight: bold;
+	color:orangered;
+	text-shadow: 2px 2px 4px black;
+}
+
+h2{
+	font-size: 18px !important;
+	float: right;
+	margin-top: 5px;
+	color: orangered;
+	text-shadow: 1px 1px 2px black;
+}
+
+h6 {
+	margin-top: 5px !important;
+	
+}
+
+.Box {
+	border: solid 3px limegreen;
+	height: 350px;
+	width: 205.5px;
+	margin: 15px 7px 15px 7px;
+	float: left;
+}
+
+
+.Image{
+	height: 199px;
+	width: 199px;
+	overflow: hidden;
+}
+
+
+.Image > img{
+	height: 199px;
+	width: 199px;
+	transition-property: transform;
+	transition-duration: 0.7s;
+}
+
+.Box > .Image > img:hover{
+	transform: scale(1.27);
+}
+
+.Detail {
+	height: 150px;
+	width: 200px;
+	margin: auto;
+	}  
+
+.records{
+	padding: 5px;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: 1px 1px 2px red;
+}
+
+.btn-warning{
+		width: 99.8% !important;
+		margin: 0px 0.1px;
+		font-weight: bold !important;
+		border-radius: 0px !important;
+	}
+
+.fa-envelope, .fa-map-marker, .fa-facebook-official, .fa-twitter, .fa-google-plus-official, .fa-whatsapp{
+
+        font-size: 25px !important;
+        margin: 0px 10px;
+	}
+	
+
+	.fa-shopping-cart {
+		font-size: 30px !important;
+		margin: 0px 10px;
+		color: darkgreen;
+	}
+
+	.cart{
+		margin-top: 5px;
+	}
+
+    .page-footer {
+        background-color:#CFD8DC !important;
+	}
+
+
+
+					 /* (RESPONSIVE SCREENS SIZES) */
+
+
+
+       /* FULL SCREEN Size*/
+	   @media only screen and (max-width :1200px){     
+  
+		.navbar-nav {
+		  padding-left: 340px !important;
+				  }
+	  
+		}
+	
+	
+	
+		/* iPad Pro LARGE Screen Size*/
+	  @media only screen and (max-width :1024px){   
+	  
+	  .navbar-nav {
+		padding-left: 200px !important;
+				}
+
+		h4  {
+		  font-size: 13px !important;
+			 }
+
+		a.nav-link{
+			font-size: 12px;
+			}
+
+		h5  {
+		  font-size: 12px !important;
+		  margin-top: 3px;
+			 }
+
+		.Box{
+					margin: 10px 20px;
+			}
+	
+	  }
+	
+	
+	
+		   /* Responsive LARGE Screen Size*/
+	  @media only screen and (max-width :992px){     
+	  
+		.navbar-nav {
+		  padding-left: 135px !important;
+		  }
+	  
+	  }
+	
+	
+	  
+		/* iPad Screen MEDIUM Size*/
+	  @media only screen and (max-width :768px){     
+	  
+		.dropbtn {
+			padding: 0px; }
+
+		  .navbar-nav {
+			padding-left: 0px !important;
+				}
+				
+				.Box{
+					margin: 10px 80px;
+				}
+
+	  }
+	
+	    
+	   /* (Surface Duo) SMALL Screen Size */
+	  @media only screen and (max-width :576px){     
+	  
+		.navbar-nav {
+		  padding-left: 0px !important;
+				  }
+	  
+		h4  {
+		  font-size: 15px !important;
+			 }
+
+	  .Box{
+			margin: 5px 24px;
+		}
+	
+	  }
+
+	  /* (iPhone 6/7/8 Plus) Screen MEDIUM Size*/
+	  @media only screen and (max-width :414px){     
+	  
+		.dropbtn {
+			padding: 0px; }
+			  
+			  .Box{
+				  margin: 10px 87px;
+			  }
+
+	}
+	
+
+	  /* (IPhone X) SMALL Screen Size */
+		@media only screen and (max-width :375px){     
+	  
+			.dropbtn {
+				padding: 0px; }
+		  
+			h4  {
+			  font-size: 16px !important;
+				 }
+	
+		  .Box{
+				margin: 10px 70px;
+			}
+		
+		  }
+
+
+		   /* (Galaxy S5 & Moto G4) SMALL Screen Size */
+		@media only screen and (max-width :360px){     
+
+			.dropbtn {
+				padding: 0px; }
+		  
+			h4  {
+			  font-size: 16px !important;
+				 }
+	
+		  .Box{
+				margin: 10px 60px;
+			}
+		
+		  }
+
+
+		  /* (iPhone 5/SE) Screen MEDIUM Size*/
+	  @media only screen and (max-width :320px){     
+	  
+		.dropbtn {
+			padding: 0px; }
+			  
+			  .Box{
+				  margin: 10px 40px;
+			  }
+
+	}
+
+	  
+		/* (Galaxy Fold) EXTRA-SMALL Screen Size */
+	  @media only screen and (max-width :280px){ 	
+	
+		.Box{
+			margin: 5px 20px;
+		}
+	
+	}
+	

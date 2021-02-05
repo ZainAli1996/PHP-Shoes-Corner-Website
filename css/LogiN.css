@@ -1,0 +1,232 @@
+
+*{font-family: 'Poppins', sans-serif;}
+
+form {
+  border: 2px solid black;
+  padding: 5px;
+  height: auto;
+  max-width: 400px !important;
+  margin: auto;
+}
+
+.nav-link, .btn {
+  color:#000000 !important;
+  font-weight: bold;
+}
+
+.navbar-brand{
+padding: 1px !important; } 
+
+ul > li > a{
+  margin-top: 9px !important;
+    }
+    
+  a.nav-link{
+      font-size: 15px;
+    }
+    
+  .navbar-nav {
+      padding-left: 380px;
+    }
+
+nav {
+  padding: 0px 5px !important;
+	background-color: #CFD8DC;
+  border: 2px solid green !important;
+}
+  
+.nav-link {
+font-weight: bold;
+margin-top: 5px;
+}
+
+p{
+  text-align: center;
+  background-color: snow;
+  width: 265px;
+  margin-left: 60px;
+  margin-bottom: 3px !important;
+  color: red !important;
+}
+
+h4 {
+font-size: 13.7px !important;
+font-weight: bold !important;
+margin-top: 15px !important;
+  float: right;
+  padding-left: 5px;
+}
+
+  ul{
+    list-style: none;
+    }
+    
+  ul li{
+    padding: 0px 0px 2px 0px !important;
+    }
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+  h2{
+    text-align: center;
+    color: blue;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+  }
+
+  .box{
+    height: 500px;
+  }
+
+.container {
+  background-color: floralwhite;
+  height: auto;
+  width: 425px;
+  margin-top: 50px !important;
+  margin-bottom: 20px !important;
+  padding: 3px !important;
+  border: 3px solid gold;
+  border-radius: 10px;
+}
+
+span.psw {
+  margin-left: 25px;
+  }
+
+
+.btn-success{
+  width: 100% !important;
+  margin-bottom: 3px;
+}
+
+.Condition{
+  background-color: khaki;
+  text-align: center;
+  font-weight: bold;
+  width: 320px;
+  color: red;
+  margin-left: 35px;
+}
+
+
+                                    /* (RESPONSIVE SCREENS SIZES) */
+
+
+
+       /* FULL SCREEN Size*/
+  @media only screen and (max-width :1200px){     
+  
+    .navbar-nav {
+      padding-left: 340px !important;
+              }
+  
+    }
+
+
+
+    /* iPad Pro LARGE Screen Size*/
+  @media only screen and (max-width :1024px){     
+  
+  .navbar-nav {
+    padding-left: 170px !important;
+      }
+
+      .container {
+      margin-top: 75px !important;
+       }
+
+  }
+
+
+
+       /* Responsive LARGE Screen Size*/
+  @media only screen and (max-width :992px){     
+  
+    .navbar-nav {
+      padding-left: 135px !important;
+      }
+  
+  }
+
+
+  
+          /* iPad Screen MEDIUM Size*/
+  @media only screen and (max-width :768px){     
+  
+      .navbar-nav {
+        padding-left: 0px !important;
+            }
+
+  }
+
+
+          /* SMALL Screen Size */
+  @media only screen and (max-width :576px){     
+  
+    .navbar-nav {
+      padding-left: 0px !important;
+              }
+  
+    h4  {
+      font-size: 15px !important;
+         }
+  
+         .container {
+          width: 320px;
+        }
+
+        form {
+          max-width: 300px !important;
+          margin: auto;
+        }
+
+        span.psw {
+          margin-left: 150px;
+          }
+
+          p{
+            margin-left: 10px !important;
+          }
+
+          .box{
+            height: 750px;
+          }
+
+  }
+
+  
+          /* EXTRA-SMALL Screen Size */
+  @media only screen and (max-width :280px){   
+
+            .container {
+              width: 275px;
+            }
+    
+            form {
+              max-width: 260px !important;
+              margin: auto;
+            }
+    
+            span.psw {
+              margin-left: 100px;
+              }
+
+              p{
+                margin-left: 30px !important;
+                width: 175px;
+              }
+
+              .box{
+                height: 700px;
+              }
+
+
+}
